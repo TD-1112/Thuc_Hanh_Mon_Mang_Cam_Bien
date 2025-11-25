@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "tim2.h": "c"
+        "tim2.h": "c",
+        "rfid.h": "c",
+        "lib_spi.h": "c",
+        "bit": "c",
+        "compare": "c",
+        "cstddef": "c",
+        "limits": "c",
+        "type_traits": "c",
+        "xutility": "c",
+        "message.h": "c"
     }
 }

@@ -322,7 +322,7 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>2</wLevel>
+            <wLevel>1</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>0</uC99>
@@ -333,7 +333,7 @@
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
-            <v6WtE>0</v6WtE>
+            <v6WtE>1</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
@@ -384,19 +384,24 @@
           <GroupName>incl</GroupName>
           <Files>
             <File>
-              <FileName>uart.h</FileName>
+              <FileName>lib_dht11.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\USER\uart.h</FilePath>
+              <FilePath>..\USER\lib_dht11.h</FilePath>
             </File>
             <File>
-              <FileName>delays.h</FileName>
+              <FileName>lib_math.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\USER\delays.h</FilePath>
+              <FilePath>..\USER\lib_math.h</FilePath>
             </File>
             <File>
-              <FileName>dht11.h</FileName>
+              <FileName>lib_uart.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\USER\dht11.h</FilePath>
+              <FilePath>..\USER\lib_uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>lib_timer2.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\lib_timer2.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -409,19 +414,24 @@
               <FilePath>..\USER\main.c</FilePath>
             </File>
             <File>
-              <FileName>uart.c</FileName>
+              <FileName>lib_dht11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER\uart.c</FilePath>
+              <FilePath>..\USER\lib_dht11.c</FilePath>
             </File>
             <File>
-              <FileName>delays.c</FileName>
+              <FileName>lib_math.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER\delays.c</FilePath>
+              <FilePath>..\USER\lib_math.c</FilePath>
             </File>
             <File>
-              <FileName>dht11.c</FileName>
+              <FileName>lib_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER\dht11.c</FilePath>
+              <FilePath>..\USER\lib_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>lib_timer2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\lib_timer2.c</FilePath>
             </File>
           </Files>
         </Group>

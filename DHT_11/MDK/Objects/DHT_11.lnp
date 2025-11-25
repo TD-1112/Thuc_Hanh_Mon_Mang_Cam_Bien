@@ -1,8 +1,9 @@
 --cpu Cortex-M3
 ".\objects\main.o"
-".\objects\uart.o"
-".\objects\delays.o"
-".\objects\dht11.o"
+".\objects\lib_dht11.o"
+".\objects\lib_math.o"
+".\objects\lib_uart.o"
+".\objects\lib_timer2.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_exti.o"
 ".\objects\stm32f10x_gpio.o"
